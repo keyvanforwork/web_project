@@ -3,6 +3,7 @@
     font-size: 40px ;
     direction: rtl;
     font-family: "Adobe Devanagari", serif;
+    text-decoration: none;
 }
 @font-face {
     font-family: lighting;
@@ -40,4 +41,5 @@ p{
     color: #3c3f41;
     letter-spacing: normal;
     font-family: "IRANSansFaNum UltraLight", ui-serif;
+    cursor: pointer;
 }
