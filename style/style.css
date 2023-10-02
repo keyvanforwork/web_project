@@ -1,0 +1,24 @@
+*{
+    color: #0a0a5c;
+    font-size: 40px ;
+}
+h1{
+    color: violet;
+    font-size: 40px ;
+}
+#d1{
+    color: beige;
+    font-size: 40px ;
+}
+.c1{
+    color: skyblue;
+    font-size: 70px ;
+}
+p.c1{
+    color: yellowgreen;
+    font-size: 50px ;
+}
+
+p{
+    color: teal;
+}
