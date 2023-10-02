@@ -1,24 +1,43 @@
 *{
-    color: #0a0a5c;
+    color: black;
     font-size: 40px ;
+    direction: rtl;
+    font-family: "Adobe Devanagari", serif;
+}
+@font-face {
+    font-family: lighting;
+    src: url("Lighthaus.otf");
 }
 h1{
     color: violet;
     font-size: 40px ;
+    font-family: lighting, serif;
 }
 #d1{
     color: beige;
     font-size: 40px ;
+    direction: rtl;
+    word-spacing: 40px;
 }
 .c1{
     color: skyblue;
-    font-size: 70px ;
+      font-size: 70px ;
 }
 p.c1{
     color: yellowgreen;
     font-size: 50px ;
+    font-family: lighting, serif;
 }
 
 p{
     color: teal;
+    font-weight: bold;
+    direction: ltr;
+    letter-spacing: 10px;
+
+}
+#d2{
+    color: #3c3f41;
+    letter-spacing: normal;
+    font-family: "IRANSansFaNum UltraLight", ui-serif;
 }
