@@ -1,45 +1,109 @@
-*{
-    color: black;
-    font-size: 40px ;
-    direction: rtl;
-    font-family: "Adobe Devanagari", serif;
-    text-decoration: none;
-}
+/**{*/
+/*    background-color: darkslategray;*/
+/*    color: black;*/
+/*    font-size: 40px ;*/
+/*    direction: rtl;*/
+/*    font-family: "Adobe Devanagari", serif;*/
+/*    text-decoration: none;*/
+/*}*/
 @font-face {
     font-family: lighting;
     src: url("Lighthaus.otf");
 }
-h1{
-    color: violet;
-    font-size: 40px ;
-    font-family: lighting, serif;
-}
-#d1{
-    color: beige;
-    font-size: 40px ;
-    direction: rtl;
-    word-spacing: 40px;
-}
-.c1{
-    color: skyblue;
-      font-size: 70px ;
-}
-p.c1{
-    color: yellowgreen;
-    font-size: 50px ;
+
+h1 {
+    color: rgb(34, 45, 66);
+    font-size: 40px;
     font-family: lighting, serif;
 }
 
-p{
+#d1 {
+    color: rgb(48, 51, 107);
+    font-size: 40px;
+    direction: rtl;
+    word-spacing: 40px;
+}
+
+.c1 {
+    color: skyblue;
+    font-size: 70px;
+}
+
+p.c1 {
+    color: rgb(34, 45, 66);
+    font-size: 80px;
+    text-align: center;
+    font-family: lighting, serif;
+}
+
+p {
     color: teal;
     font-weight: bold;
     direction: ltr;
     letter-spacing: 10px;
 
 }
-#d2{
+
+#d2 {
     color: #3c3f41;
+    font-size: 40px;
+    border: 5px solid lightsteelblue;
+    padding: 20px;
+    margin: 150px;
+    background-color: aqua;
     letter-spacing: normal;
     font-family: "IRANSansFaNum UltraLight", ui-serif;
     cursor: pointer;
+    display: inline;
+}
+
+#d1h1 {
+    text-align: left;
+    text-decoration: darkmagenta;
+    color: gold;
+    border: 7.5px solid rgb(0, 168, 255);
+    border-radius: 8px;
+    outline: 12px solid darkslategray;
+    display: inline;
+}
+
+/*img{*/
+/*    text-align: center;*/
+/*    display: block;*/
+/*    width: 360px;*/
+/*    height: auto;*/
+/*    border-radius: 50%;*/
+/*    border: 5px dashed yellowgreen;*/
+/*}*/
+#e1 {
+    display: block;
+    width: 360px;
+    margin: 40px auto;
+}
+
+a {
+    font-size: 32px;
+    font-family: "Tahoma";
+    background-color: lightskyblue;
+    color: slategray;
+    display: inline-block;
+    border-radius: 20%;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:link {
+    color: lightslategray;
+}
+
+a:hover {
+    color: indigo;
+}
+
+a:visited {
+    color: gold;
 }
