@@ -1,11 +1,11 @@
-/**{*/
-/*    background-color: darkslategray;*/
-/*    color: black;*/
-/*    font-size: 40px ;*/
-/*    direction: rtl;*/
-/*    font-family: "Adobe Devanagari", serif;*/
-/*    text-decoration: none;*/
-/*}*/
+*{
+    background-color: darkslategray;
+    color: black;
+    font-size: 40px ;
+    direction: rtl;
+    font-family: "Adobe Devanagari", serif;
+    text-decoration: none;
+}
 @font-face {
     font-family: lighting;
     src: url("Lighthaus.otf");
@@ -58,13 +58,17 @@ p {
 }
 
 #d1h1 {
-    text-align: left;
+    text-align: center;
     text-decoration: darkmagenta;
+    width: 640px;
+    height: 240px;
+    margin: 0px auto;
     color: gold;
     border: 7.5px solid rgb(0, 168, 255);
     border-radius: 8px;
     outline: 12px solid darkslategray;
     display: inline;
+    position: fixed;
 }
 
 /*img{*/
@@ -86,8 +90,9 @@ a {
     font-family: "Tahoma";
     background-color: lightskyblue;
     color: slategray;
+    width:20%;
     display: inline-block;
-    border-radius: 20%;
+    border-radius: 45%;
     margin-top: 40px;
     margin-right: auto;
     margin-left: auto;
