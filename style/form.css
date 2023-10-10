@@ -1,0 +1,7 @@
+h1 {
+    color: lightslategrey;
+}
+h1::selection {
+    color: crimson;
+    background-color: lightgoldenrodyellow;
+}

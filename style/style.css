@@ -1,11 +1,11 @@
-*{
-    background-color: darkslategray;
-    color: black;
-    font-size: 40px ;
-    direction: rtl;
-    font-family: "Adobe Devanagari", serif;
-    text-decoration: none;
-}
+/**{*/
+/*    background-color: darkslategray;*/
+/*    color: black;*/
+/*    font-size: 40px ;*/
+/*    direction: rtl;*/
+/*    font-family: "Adobe Devanagari", serif;*/
+/*    text-decoration: none;*/
+/*}*/
 @font-face {
     font-family: lighting;
     src: url("Lighthaus.otf");
@@ -44,6 +44,7 @@ p {
 
 }
 
+
 #d2 {
     color: #3c3f41;
     font-size: 40px;
@@ -60,15 +61,20 @@ p {
 #d1h1 {
     text-align: center;
     text-decoration: darkmagenta;
+    background-color: azure;
     width: 640px;
     height: 240px;
     margin: 0px auto;
     color: gold;
     border: 7.5px solid rgb(0, 168, 255);
     border-radius: 8px;
-    outline: 12px solid darkslategray;
+    outline: 12px solid chocolate;
     display: inline;
-    position: fixed;
+    position: page;
+    bottom: 10px;
+    right: 125px;
+    left: 250px;
+    font-family: "Dubai Light";
 }
 
 /*img{*/
@@ -111,4 +117,32 @@ a:hover {
 
 a:visited {
     color: gold;
+}
+#d3{
+    background-color: darkviolet;
+    width: 480px;
+    height: 60px;
+    position: relative;
+}
+#s1{
+    background-color: green;
+    text-align: center;
+    position: absolute;
+}
+p {
+    display: none;
+    background-color: chocolate;
+    padding: 25px;
+}
+#d4:hover p {
+    direction: ltr;
+    display: block;
+    right: 120px;
+}
+#i1:focus {
+    background-color: darkgrey;
+}
+#h1::selection {
+    color: floralwhite;
+    background-color: crimson;
 }
